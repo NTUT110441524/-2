@@ -3,7 +3,7 @@
 #變化考題：變化考題：(1)請加入轉速資料的收集，假若轉速 >= 標準轉速的時候，要輸出警訊，提醒駕駛注意。
 #變化考題：變化考題：(2)油箱只剩0.5格的時候，怎麼辦??
 import streamlit as st
-Team Number=st.number_input('我們的組名是vamos')
+Team Number=st.write('我們的組名是vamos')
 car_simulation = {'gas_warning':1, 'speed_limit':100, 'temp_warning':30, '轉速':12000}
 gas = st.number_input('油量的資料收集:油箱滿是10格 =>')
 speed= st.number_input('車速的資料收集:限速100 =>')
